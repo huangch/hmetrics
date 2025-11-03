@@ -1,3 +1,3 @@
-from .plot import hmetrics
+from .plotting import hmetrics
 
 __all__ = ["hmetrics"]

@@ -9,7 +9,7 @@ from typing import Optional, Tuple
 from statannotations.Annotator import Annotator
 from .stats import run_pairwise_tests
 
-def hmetrics(
+def plot_hmetrics(
     df: pd.DataFrame, group: str, value: str,
     order: Optional[list] = None,
     nonparametric: bool = True,        # True -> Mann–Whitney; False -> Welch t-test

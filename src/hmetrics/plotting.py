@@ -78,6 +78,8 @@ def hmetrics_plot(
     -------
     (fig, ax)
     """
+    plt.rcdefaults()
+    
     # ---- order categories on x ----
     if order is None:
         order = sorted(df[group].dropna().unique().tolist())

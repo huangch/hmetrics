@@ -1,3 +1,5 @@
-from .plotting import hmetrics
 
-__all__ = ["hmetrics"]
+__version__ = "0.1.0"
+
+from .core import HMerrics
+from .runners import run_hmetrics_batch
